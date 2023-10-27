@@ -32,13 +32,36 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ... Outros estilos ... */
+
+body {
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
+  overflow-y: hidden; /* Esconde a barra de rolagem vertical em todo o corpo do documento */
+}
+
+/* ... Outros estilos ... */
+
 #container {
-  width: 100%;
-  max-width: 588px;
-  margin: 56px auto 0px;
+  width: 90%;
+  min-width: 280px;
+  max-width: 800px;
+  height: 100vh;
+  margin: 56px auto 0;
   padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Habilita a barra de rolagem apenas se o conteúdo exceder a altura da viewport */
 }
 
 /* profile */
