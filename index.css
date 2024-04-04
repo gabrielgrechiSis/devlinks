@@ -67,12 +67,11 @@ body {
 /* profile */
 #profile {
   text-align: center;
-  padding: 24px;
 }
 
 #profile img {
-  width: 112px;
-  border-radius: 5000rem;
+  width: 17%;
+  border-radius: 45%;
 }
 
 #profile p {
